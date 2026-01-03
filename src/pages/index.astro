@@ -1,25 +1,22 @@
 ---
-import '../styles/global.css';
-// Component Imports
-import Button from '../components/Button.astro';
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/basics/astro-components/
+import Layout from "../layouts/Layout.astro";
+import Hero from "@/components/sections/Hero";
+import USP from "@/components/sections/USP";
+import Services from "@/components/sections/Services";
+import Spareparts from "@/components/sections/Spareparts";
+import Process from "@/components/sections/Process";
+import Testimonials from "@/components/sections/Testimonials";
+import Contact from "@/components/sections/Contact";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro + TailwindCSS</title>
-	</head>
-
-	<body>
-		<div class="grid place-items-center h-screen content-center">
-			<Button>Tailwind Button in Astro!</Button>
-			<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
-		</div>
-	</body>
-</html>
+<Layout title="Bengkel Motor SS - Solusi Perawatan Motor Terpercaya">
+	<main>
+		<Hero client:load />
+		<USP client:visible />
+		<Services client:visible />
+		<Spareparts client:visible />
+		<Process client:visible />
+		<Testimonials client:visible />
+		<Contact client:visible />
+	</main>
+</Layout>

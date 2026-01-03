@@ -1,0 +1,47 @@
+---
+import "../styles/global.css";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+
+interface Props {
+    title: string;
+    description?: string;
+}
+
+const {
+    title,
+    description = "Bengkel Motor SS - Solusi Perawatan Motor Terpercaya",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="id" class="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content={description} />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body
+        class="min-h-screen bg-background font-sans antialiased text-foreground overflow-x-hidden selection:bg-primary selection:text-primary-foreground"
+    >
+        <Navbar client:load />
+        <slot />
+        <Footer />
+    </body>
+</html>
+
+<style>
+    body {
+        font-family: "Inter", sans-serif;
+    }
+</style>
