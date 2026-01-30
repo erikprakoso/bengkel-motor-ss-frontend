@@ -61,10 +61,20 @@ export default function Footer() {
                     <div className="space-y-6">
                         <h3 className="text-lg font-bold text-foreground mb-6">Social Media</h3>
                         <div className="flex gap-4">
-                            <a href="#" className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all">
+                            <a
+                                href="https://instagram.com/bengkelmotorss"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all"
+                            >
                                 <Instagram className="w-5 h-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all">
+                            <a
+                                href="https://facebook.com/bengkelmotorss"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all"
+                            >
                                 <Facebook className="w-5 h-5" />
                             </a>
                         </div>
