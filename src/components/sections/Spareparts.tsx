@@ -43,7 +43,7 @@ export default function Spareparts() {
                         <div className="space-y-4 md:space-y-6 mt-8 md:mt-12">
                             <FadeIn delay={0.2} className="h-auto">
                                 <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 relative overflow-hidden group">
-                                    <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1626885616570-5b34bbe2e825?q=80&w=2669&auto=format&fit=crop')] bg-cover bg-center opacity-70 group-hover:scale-110 transition-transform duration-500" />
+                                    <div className="absolute inset-0 bg-[url('/ganti-oli.jpg')] bg-cover bg-center opacity-70 group-hover:scale-110 transition-transform duration-500" />
                                     <div className="absolute bottom-0 left-0 p-4 bg-gradient-to-t from-black/80 to-transparent w-full">
                                         <p className="text-white font-bold">Oli Berkualitas</p>
                                     </div>
@@ -51,7 +51,7 @@ export default function Spareparts() {
                             </FadeIn>
                             <FadeIn delay={0.4} className="h-auto">
                                 <div className="aspect-square rounded-2xl bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 relative overflow-hidden group">
-                                    <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1596700812502-09419b4862f9?q=80&w=2670&auto=format&fit=crop')] bg-cover bg-center opacity-70 group-hover:scale-110 transition-transform duration-500" />
+                                    <div className="absolute inset-0 bg-[url('/sparepart-sepeda-motor.jpg')] bg-cover bg-center opacity-70 group-hover:scale-110 transition-transform duration-500" />
                                     <div className="absolute bottom-0 left-0 p-4 bg-gradient-to-t from-black/80 to-transparent w-full">
                                         <p className="text-white font-bold">Sparepart Mesin</p>
                                     </div>
@@ -61,7 +61,7 @@ export default function Spareparts() {
                         <div className="space-y-4 md:space-y-6">
                             <FadeIn delay={0.3} className="h-auto">
                                 <div className="aspect-square rounded-2xl bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 relative overflow-hidden group">
-                                    <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1588636287968-3ac3a84b55e3?q=80&w=2669&auto=format&fit=crop')] bg-cover bg-center opacity-70 group-hover:scale-110 transition-transform duration-500" />
+                                    <div className="absolute inset-0 bg-[url('/ban-sepeda-motor.jpg')] bg-cover bg-center opacity-70 group-hover:scale-110 transition-transform duration-500" />
                                     <div className="absolute bottom-0 left-0 p-4 bg-gradient-to-t from-black/80 to-transparent w-full">
                                         <p className="text-white font-bold">Ban Motor</p>
                                     </div>
@@ -69,7 +69,7 @@ export default function Spareparts() {
                             </FadeIn>
                             <FadeIn delay={0.5} className="h-auto">
                                 <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 relative overflow-hidden group">
-                                    <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1616428751502-7a56113b2923?q=80&w=2670&auto=format&fit=crop')] bg-cover bg-center opacity-70 group-hover:scale-110 transition-transform duration-500" />
+                                    <div className="absolute inset-0 bg-[url('/kampas-rem-sepeda-motor.jpg')] bg-cover bg-center opacity-70 group-hover:scale-110 transition-transform duration-500" />
                                     <div className="absolute bottom-0 left-0 p-4 bg-gradient-to-t from-black/80 to-transparent w-full">
                                         <p className="text-white font-bold">Kampas Rem</p>
                                     </div>
