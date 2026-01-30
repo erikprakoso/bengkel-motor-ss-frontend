@@ -37,7 +37,7 @@ export default function Services() {
                 <div className="text-center mb-16 space-y-4">
                     <FadeIn>
                         <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground">
-                            Layanan <span className="text-primary">Utama</span> Kami
+                            Layanan <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Utama</span> Kami
                         </h2>
                     </FadeIn>
                     <FadeIn delay={0.2}>

@@ -1,69 +1,98 @@
 import React from "react";
-import { ClipboardList, Search, Wrench, Gauge, CheckCircle } from "lucide-react";
+import { ClipboardList, Search, Wrench, Gauge, CheckCircle, ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
 import FadeIn from "@/components/ui/FadeIn";
 
-export default function Process() {
-    const steps = [
-        {
-            icon: <ClipboardList className="w-8 h-8 text-primary font-bold" />,
-            title: "Pendaftaran",
-            description: "Daftarkan motor Anda di meja resepsionis atau booking via WhatsApp.",
-        },
-        {
-            icon: <Search className="w-8 h-8 text-secondary font-bold" />,
-            title: "Inspeksi & Diagnosa",
-            description: "Mekanik kami memeriksa kondisi motor dan menyampaikan estimasi biaya.",
-        },
-        {
-            icon: <Wrench className="w-8 h-8 text-primary font-bold" />,
-            title: "Pengerjaan",
-            description: "Proses servis dilakukan dengan alat lengkap dan sparepart sesuai persetujuan.",
-        },
-        {
-            icon: <Gauge className="w-8 h-8 text-secondary font-bold" />,
-            title: "Test Drive & QC",
-            description: "Pengecekan akhir untuk memastikan masalah telah teratasi sepenuhnya.",
-        },
-        {
-            icon: <CheckCircle className="w-8 h-8 text-primary font-bold" />,
-            title: "Penyerahan",
-            description: "Motor diserahkan kembali dalam kondisi prima beserta nota garansi servis.",
-        },
-    ];
+const steps = [
+    {
+        icon: <ClipboardList className="w-8 h-8" />,
+        title: "Pendaftaran",
+        description: "Daftar langsung atau booking via WhatsApp tanpa antri lama.",
+        color: "from-blue-500 to-cyan-400",
+    },
+    {
+        icon: <Search className="w-8 h-8" />,
+        title: "Cek & Diagnosa",
+        description: "Pemeriksaan menyeluruh untuk menemukan sumber masalah.",
+        color: "from-orange-500 to-amber-400",
+    },
+    {
+        icon: <Wrench className="w-8 h-8" />,
+        title: "Pengerjaan",
+        description: "Perbaikan oleh mekanik ahli dengan tools modern & presisi.",
+        color: "from-red-500 to-rose-400",
+    },
+    {
+        icon: <Gauge className="w-8 h-8" />,
+        title: "Final Check",
+        description: "Test drive & QC ketat sebelum motor diserahkan kembali.",
+        color: "from-purple-500 to-violet-400",
+    },
+    {
+        icon: <CheckCircle className="w-8 h-8" />,
+        title: "Selesai",
+        description: "Motor prima, bergaransi, dan siap melaju kembali.",
+        color: "from-green-500 to-emerald-400",
+    },
+];
 
+export default function Process() {
     return (
-        <section id="process" className="py-20 md:py-32 bg-background">
-            <div className="container mx-auto px-4 md:px-6">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground mb-4">
-                        Alur Servis <span className="text-primary">Transparan</span>
-                    </h2>
-                    <p className="text-muted-foreground text-lg">
-                        Kami memastikan setiap langkah pengerjaan jelas dan terukur demi kepuasan Anda.
-                    </p>
+        <section id="process" className="py-24 md:py-32 bg-background relative overflow-hidden">
+            {/* Background Elements */}
+            <div className="absolute top-1/2 left-0 w-full h-[500px] bg-primary/5 blur-[100px] -translate-y-1/2 rounded-full pointer-events-none" />
+
+            <div className="container mx-auto px-4 md:px-6 relative z-10">
+                <div className="text-center mb-20 space-y-4">
+                    <FadeIn>
+                        <h2 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
+                            Alur Servis <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Profesional</span>
+                        </h2>
+                    </FadeIn>
+                    <FadeIn delay={0.2}>
+                        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+                            Proses transparan, cepat, dan terukur demi hasil terbaik untuk kendaraan Anda.
+                        </p>
+                    </FadeIn>
                 </div>
 
-                <div className="relative">
-                    {/* Connecting Line (Desktop) */}
-                    <div className="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gradient-to-r from-primary/20 via-secondary/20 to-primary/20 -translate-y-1/2 z-0" />
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                    {steps.map((step, index) => (
+                        <FadeIn key={index} delay={index * 0.1}>
+                            <motion.div
+                                whileHover={{ y: -10 }}
+                                className="group relative h-full bg-card/50 backdrop-blur-sm border border-white/5 rounded-3xl p-6 overflow-hidden hover:border-white/10 transition-colors"
+                            >
+                                {/* Gradient Hover Glow */}
+                                <div className={`absolute inset-0 bg-gradient-to-br ${step.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`} />
 
-                    <div className="grid grid-cols-1 md:grid-cols-5 gap-8 relative z-10">
-                        {steps.map((step, index) => (
-                            <FadeIn key={index} delay={index * 0.15}>
-                                <div className="flex flex-col items-center text-center group">
-                                    <div className="w-20 h-20 rounded-full bg-card border-4 border-background shadow-xl flex items-center justify-center mb-6 relative group-hover:scale-110 transition-transform duration-300">
-                                        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                                        {step.icon}
-                                        <div className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center font-bold text-sm border-2 border-background">
-                                            {index + 1}
+                                {/* Large Watermark Number */}
+                                <div className="absolute -right-4 -bottom-8 text-9xl font-black text-foreground/5 select-none pointer-events-none group-hover:text-foreground/10 transition-colors duration-500">
+                                    0{index + 1}
+                                </div>
+
+                                <div className="relative z-10 flex flex-col h-full">
+                                    <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${step.color} p-[1px] mb-6 shadow-lg`}>
+                                        <div className="w-full h-full rounded-2xl bg-black/90 flex items-center justify-center text-white group-hover:bg-transparent transition-colors duration-300">
+                                            {step.icon}
                                         </div>
                                     </div>
-                                    <h3 className="text-lg font-bold text-foreground mb-2">{step.title}</h3>
-                                    <p className="text-sm text-muted-foreground">{step.description}</p>
+
+                                    <h3 className="text-xl font-bold text-foreground mb-3">{step.title}</h3>
+                                    <p className="text-sm text-muted-foreground leading-relaxed">
+                                        {step.description}
+                                    </p>
+
+                                    {/* Arrow connector for desktop (skip last item) */}
+                                    {index !== steps.length - 1 && (
+                                        <div className="hidden lg:block absolute top-1/2 -right-9 -translate-y-1/2 z-20 text-muted-foreground/20">
+                                            <ArrowRight className="w-6 h-6" />
+                                        </div>
+                                    )}
                                 </div>
-                            </FadeIn>
-                        ))}
-                    </div>
+                            </motion.div>
+                        </FadeIn>
+                    ))}
                 </div>
             </div>
         </section>

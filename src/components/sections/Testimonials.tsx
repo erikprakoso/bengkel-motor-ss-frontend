@@ -29,7 +29,7 @@ export default function Testimonials() {
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground mb-4">
-                        Kata Mereka Tentang <span className="text-primary">SS</span>
+                        Kata Mereka Tentang <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">SS</span>
                     </h2>
                     <p className="text-muted-foreground text-lg">
                         Kepuasan pelanggan adalah prioritas utama kami.

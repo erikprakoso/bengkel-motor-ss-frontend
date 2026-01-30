@@ -10,7 +10,7 @@ export default function Spareparts() {
                     <div className="flex-1 space-y-8">
                         <FadeIn delay={0.1}>
                             <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground">
-                                Sparepart <span className="text-secondary">Original</span> & Berkualitas
+                                Sparepart <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary">Original</span> & Berkualitas
                             </h2>
                         </FadeIn>
                         <FadeIn delay={0.2}>

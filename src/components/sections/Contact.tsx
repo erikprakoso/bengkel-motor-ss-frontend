@@ -13,7 +13,7 @@ export default function Contact() {
                     <div className="flex-1 space-y-8">
                         <FadeIn>
                             <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground">
-                                Kunjungi <span className="text-primary">Bengkel</span> Kami
+                                Kunjungi <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Bengkel</span> Kami
                             </h2>
                         </FadeIn>
                         <FadeIn delay={0.1}>
