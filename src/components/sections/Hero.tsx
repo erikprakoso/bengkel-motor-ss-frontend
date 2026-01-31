@@ -86,7 +86,7 @@ export default function Hero() {
                                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
                                     <span className="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span>
                                 </span>
-                                Bengkel Modern & Terpercaya
+                                Bengkel Berpengalaman & Terpercaya
                             </motion.div>
                         </FadeIn>
 
@@ -121,7 +121,7 @@ export default function Hero() {
 
                         <FadeIn delay={0.5}>
                             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 leading-relaxed">
-                                Kami menggabungkan keahlian mekanik berpengalaman dengan alat diagnostik canggih untuk memastikan motor Anda kembali dalam kondisi terbaik.
+                                Kami menggabungkan pengalaman lebih dari 15 tahun dengan ketelitian tinggi untuk memastikan motor Anda kembali dalam kondisi terbaik.
                             </p>
                         </FadeIn>
 
@@ -160,7 +160,7 @@ export default function Hero() {
                                     <div className="text-sm text-muted-foreground">Rating Pelanggan</div>
                                 </div>
                                 <div>
-                                    <div className="text-2xl md:text-3xl font-bold text-white">10+</div>
+                                    <div className="text-2xl md:text-3xl font-bold text-white">15+</div>
                                     <div className="text-sm text-muted-foreground">Tahun Pengalaman</div>
                                 </div>
                             </div>

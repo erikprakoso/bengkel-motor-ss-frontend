@@ -4,21 +4,21 @@ import FadeIn from "@/components/ui/FadeIn";
 
 const testimonials = [
     {
-        name: "Budi Santoso",
-        role: "Pengguna NMAX",
-        content: "Servis di sini sangat memuaskan. Mekanik detail menjelaskan masalah motor saya. Tarikan jadi enteng lagi seperti baru!",
+        name: "Maulida Nisa",
+        role: "Pelanggan Google Maps",
+        content: "Mekaniknya profesional,,suka servis speda mtor disini,,,,👍",
         rating: 5,
     },
     {
-        name: "Siti Rahma",
-        role: "Pengguna Beat",
-        content: "Tempat tunggunya nyaman banget, ada WiFi dan AC. Pengerjaan cepat dan transparan harganya. Rekomen banget!",
+        name: "Lailia Safitri",
+        role: "Pelanggan Google Maps",
+        content: "Mekaniknya ramah,kerjanya bagus",
         rating: 5,
     },
     {
-        name: "Ahmad Rizky",
-        role: "Komunitas Motor",
-        content: "Udah langganan tune up di sini. Alatnya canggih, ga cuma kira-kira. Hasil diagnosa akurat. Mantap Bengkel SS!",
+        name: "Raihan Sanjaya",
+        role: "Pelanggan Google Maps",
+        content: "Bengkel recommended, pelayanan memuaskan.",
         rating: 5,
     },
 ];
@@ -44,8 +44,14 @@ export default function Testimonials() {
                             >
                                 <Quote className="absolute top-6 right-6 w-8 h-8 text-primary/20" />
                                 <div className="flex gap-1 mb-4">
-                                    {[...Array(testimonial.rating)].map((_, i) => (
-                                        <Star key={i} className="w-5 h-5 fill-primary text-primary" />
+                                    {[...Array(5)].map((_, i) => (
+                                        <Star
+                                            key={i}
+                                            className={`w-5 h-5 ${i < testimonial.rating
+                                                    ? "fill-primary text-primary"
+                                                    : "fill-muted text-muted-foreground/20"
+                                                }`}
+                                        />
                                     ))}
                                 </div>
                                 <p className="text-muted-foreground mb-6 italic leading-relaxed">

@@ -10,12 +10,12 @@ export default function Spareparts() {
                     <div className="flex-1 space-y-8">
                         <FadeIn delay={0.1}>
                             <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground">
-                                Sparepart <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary">Original</span> & Berkualitas
+                                Suku Cadang <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary">Original</span> & Berkualitas
                             </h2>
                         </FadeIn>
                         <FadeIn delay={0.2}>
                             <p className="text-lg text-muted-foreground leading-relaxed">
-                                Kami menyediakan sparepart lengkap untuk berbagai jenis motor. Mulai dari Honda, Yamaha, Suzuki, hingga Kawasaki. Dijamin keasliannya dan harga yang kompetitif.
+                                Kami menyediakan suku cadang lengkap untuk berbagai jenis motor. Mulai dari Honda, Yamaha, Suzuki, hingga Kawasaki. Dijamin keasliannya dan harga yang kompetitif.
                             </p>
                         </FadeIn>
 
@@ -33,7 +33,7 @@ export default function Spareparts() {
                         <div className="flex items-center gap-3 p-4 bg-primary/10 border border-primary/20 rounded-xl max-w-md">
                             <Info className="w-5 h-5 text-primary shrink-0" />
                             <p className="text-sm text-foreground">
-                                <span className="font-bold">Catatan:</span> Kami tidak menjual sparepart secara online. Silakan datang langsung ke bengkel untuk pemasangan.
+                                <span className="font-bold">Catatan:</span> Kami tidak menjual suku cadang secara online. Silakan datang langsung ke bengkel untuk pemasangan.
                             </p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ export default function Spareparts() {
                                 <div className="aspect-square rounded-2xl bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 relative overflow-hidden group">
                                     <div className="absolute inset-0 bg-[url('/sparepart-sepeda-motor.jpg')] bg-cover bg-center opacity-70 group-hover:scale-110 transition-transform duration-500" />
                                     <div className="absolute bottom-0 left-0 p-4 bg-gradient-to-t from-black/80 to-transparent w-full">
-                                        <p className="text-white font-bold">Sparepart Mesin</p>
+                                        <p className="text-white font-bold">Suku Cadang Mesin</p>
                                     </div>
                                 </div>
                             </FadeIn>

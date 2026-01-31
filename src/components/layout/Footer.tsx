@@ -19,47 +19,43 @@ export default function Footer() {
                             </div>
                         </div>
                         <p className="text-muted-foreground leading-relaxed">
-                            Solusi perawatan motor terpercaya dengan mekanik berpengalaman dan peralatan modern agar performa motor Anda selalu prima.
+                            Solusi perawatan motor terpercaya dengan mekanik berpengalaman dan pengerjaan teliti agar performa motor Anda selalu prima.
                         </p>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h3 className="text-lg font-bold text-foreground mb-6">Quick Links</h3>
+                        <h3 className="text-lg font-bold text-foreground mb-6">Navigasi</h3>
                         <ul className="space-y-3">
-                            <li><a href="#services" className="text-muted-foreground hover:text-primary transition-colors">Services</a></li>
-                            <li><a href="#spareparts" className="text-muted-foreground hover:text-primary transition-colors">Spareparts</a></li>
-                            <li><a href="#about" className="text-muted-foreground hover:text-primary transition-colors">About Us</a></li>
-                            <li><a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
+                            <li><a href="#services" className="text-muted-foreground hover:text-primary transition-colors">Layanan</a></li>
+                            <li><a href="#spareparts" className="text-muted-foreground hover:text-primary transition-colors">Suku Cadang</a></li>
+                            <li><a href="#about" className="text-muted-foreground hover:text-primary transition-colors">Tentang Kami</a></li>
+                            <li><a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">Kontak</a></li>
                         </ul>
                     </div>
 
                     {/* Contact */}
                     <div>
-                        <h3 className="text-lg font-bold text-foreground mb-6">Contact Us</h3>
+                        <h3 className="text-lg font-bold text-foreground mb-6">Hubungi Kami</h3>
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3 text-muted-foreground">
                                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-1" />
-                                <span>Jl. Raya Motor No. 88, Jakarta Selatan, Indonesia</span>
+                                <span>Nglawu, Tirem, Brati, Kabupaten Grobogan, Jawa Tengah 58153</span>
                             </li>
                             <li className="flex items-center gap-3 text-muted-foreground">
                                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                                <span>+62 812 3456 789</span>
-                            </li>
-                            <li className="flex items-center gap-3 text-muted-foreground">
-                                <Mail className="w-5 h-5 text-primary shrink-0" />
-                                <span>info@bengkelmotorss.com</span>
+                                <span>+62 838 3818 5659</span>
                             </li>
                             <li className="flex items-center gap-3 text-muted-foreground">
                                 <Clock className="w-5 h-5 text-primary shrink-0" />
-                                <span>Senin - Minggu: 08:00 - 18:00</span>
+                                <span>Setiap Hari: 07:00 - 16:00</span>
                             </li>
                         </ul>
                     </div>
 
                     {/* Socials */}
                     <div className="space-y-6">
-                        <h3 className="text-lg font-bold text-foreground mb-6">Social Media</h3>
+                        <h3 className="text-lg font-bold text-foreground mb-6">Sosial Media</h3>
                         <div className="flex gap-4">
                             <a
                                 href="https://instagram.com/bengkelmotorss"
@@ -82,7 +78,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-border mt-12 pt-8 text-center text-muted-foreground text-sm">
-                    &copy; {new Date().getFullYear()} Bengkel Motor SS. All rights reserved.
+                    &copy; {new Date().getFullYear()} Bengkel Motor SS. Hak Cipta Dilindungi.
                 </div>
             </div>
         </footer>

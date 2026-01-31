@@ -39,8 +39,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-bold text-foreground mb-1">Jam Operasional</h3>
-                                    <p className="text-muted-foreground">Senin - Sabtu: 07:00 - 16:00 WIB</p>
-                                    <p className="text-muted-foreground">Minggu: 09:00 - 15:00 WIB</p>
+                                    <p className="text-muted-foreground">Setiap Hari: 07:00 - 16:00 WIB</p>
                                 </div>
                             </div>
 

@@ -19,7 +19,7 @@ const services = [
     {
         icon: <Zap className="w-8 h-8 md:w-10 md:h-10 text-primary" />,
         title: "Kelistrikan & Injeksi",
-        description: "Reset ECU, cleaning injektor, perbaikan kabel body, spul, kiprok, dan masalah kelistrikan lain.",
+        description: "Perbaikan sistem kelistrikan, cleaning injektor, kabel body, spul, kiprok, dan penanganan masalah kelistrikan lain.",
         priceStart: "Mulai 35rb",
     },
     {

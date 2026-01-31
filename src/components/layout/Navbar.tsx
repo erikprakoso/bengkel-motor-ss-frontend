@@ -6,11 +6,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-    { name: "Home", href: "#hero" },
-    { name: "Services", href: "#services" },
-    { name: "Spareparts", href: "#spareparts" },
-    { name: "Process", href: "#process" },
-    { name: "Contact", href: "#contact" },
+    { name: "Beranda", href: "#hero" },
+    { name: "Layanan", href: "#services" },
+    { name: "Suku Cadang", href: "#spareparts" },
+    { name: "Alur Servis", href: "#process" },
+    { name: "Kontak", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -65,7 +65,7 @@ export default function Navbar() {
                         onClick={() => window.open("https://wa.me/6283838185659", "_blank")}
                     >
                         <Phone className="w-4 h-4" />
-                        Booking Service
+                        Booking Servis
                     </Button>
                 </div>
 

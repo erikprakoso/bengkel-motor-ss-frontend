@@ -19,13 +19,13 @@ const steps = [
     {
         icon: <Wrench className="w-8 h-8" />,
         title: "Pengerjaan",
-        description: "Perbaikan oleh mekanik ahli dengan tools modern & presisi.",
+        description: "Perbaikan oleh mekanik ahli dengan standar kerja presisi.",
         color: "from-red-500 to-rose-400",
     },
     {
         icon: <Gauge className="w-8 h-8" />,
-        title: "Final Check",
-        description: "Test drive & QC ketat sebelum motor diserahkan kembali.",
+        title: "Pemeriksaan Akhir",
+        description: "Uji jalan & kontrol kualitas ketat sebelum motor diserahkan kembali.",
         color: "from-purple-500 to-violet-400",
     },
     {

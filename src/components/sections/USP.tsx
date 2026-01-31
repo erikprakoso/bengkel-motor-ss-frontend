@@ -11,8 +11,8 @@ const features = [
     },
     {
         icon: <Zap className="w-10 h-10 text-secondary" />,
-        title: "Peralatan Canggih",
-        description: "Menggunakan alat diagnostik modern untuk mendeteksi kerusakan dengan akurat dan cepat.",
+        title: "Pengerjaan Teliti",
+        description: "Setiap baut dan komponen diperlakukan dengan hati-hati dan presisi demi hasil yang maksimal dan awet.",
     },
     {
         icon: <Wrench className="w-10 h-10 text-primary" />,
@@ -21,8 +21,8 @@ const features = [
     },
     {
         icon: <PenTool className="w-10 h-10 text-secondary" />,
-        title: "Ruang Tunggu Nyaman",
-        description: "Nikmati fasilitas ruang tunggu ber-AC, WiFi, dan minuman gratis saat motor Anda diservis.",
+        title: "Lokasi Strategis & Terbuka",
+        description: "Bengkel dengan konsep outdoor yang santai, Anda bisa melihat langsung proses pengerjaan motor Anda.",
     },
 ];
 
