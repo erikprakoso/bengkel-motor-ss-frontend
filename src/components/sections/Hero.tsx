@@ -91,7 +91,7 @@ export default function Hero() {
                         </FadeIn>
 
                         <div className="overflow-hidden">
-                            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-[1.1]">
+                            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground leading-[1.1]">
                                 <motion.span
                                     initial={{ y: "100%" }}
                                     animate={{ y: 0 }}
@@ -152,15 +152,15 @@ export default function Hero() {
                         <FadeIn delay={0.7}>
                             <div className="pt-8 flex items-center justify-center md:justify-start gap-8 md:gap-12 text-center md:text-left border-t border-border/50">
                                 <div>
-                                    <div className="text-2xl md:text-3xl font-bold text-white">5k+</div>
+                                    <div className="text-2xl md:text-3xl font-bold text-foreground">5k+</div>
                                     <div className="text-sm text-muted-foreground">Motor Diservis</div>
                                 </div>
                                 <div>
-                                    <div className="text-2xl md:text-3xl font-bold text-white">4.9/5</div>
+                                    <div className="text-2xl md:text-3xl font-bold text-foreground">4.9/5</div>
                                     <div className="text-sm text-muted-foreground">Rating Pelanggan</div>
                                 </div>
                                 <div>
-                                    <div className="text-2xl md:text-3xl font-bold text-white">15+</div>
+                                    <div className="text-2xl md:text-3xl font-bold text-foreground">15+</div>
                                     <div className="text-sm text-muted-foreground">Tahun Pengalaman</div>
                                 </div>
                             </div>
