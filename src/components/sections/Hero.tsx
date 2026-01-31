@@ -195,8 +195,11 @@ export default function Hero() {
 
                                 <div className="w-full h-full rounded-2xl bg-black/40 flex items-center justify-center relative overflow-hidden">
                                     <img
-                                        src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=2670&auto=format&fit=crop"
+                                        src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=800&auto=format&fit=crop"
                                         alt="Mechanic working on motorcycle"
+                                        loading="eager"
+                                        // @ts-ignore
+                                        fetchPriority="high"
                                         className="absolute inset-0 w-full h-full object-cover opacity-80 md:opacity-90"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
