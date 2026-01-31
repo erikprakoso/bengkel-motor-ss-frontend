@@ -29,7 +29,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-bold text-foreground mb-1">Alamat</h3>
-                                    <p className="text-muted-foreground">Jl. Raya Motor No. 88, Jakarta Selatan, DKI Jakarta, 12345</p>
+                                    <p className="text-muted-foreground">Nglawu, Tirem, Brati, Kabupaten Grobogan, Jawa Tengah 58153</p>
                                 </div>
                             </div>
 
@@ -39,7 +39,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-bold text-foreground mb-1">Jam Operasional</h3>
-                                    <p className="text-muted-foreground">Senin - Sabtu: 08:00 - 18:00 WIB</p>
+                                    <p className="text-muted-foreground">Senin - Sabtu: 07:00 - 16:00 WIB</p>
                                     <p className="text-muted-foreground">Minggu: 09:00 - 15:00 WIB</p>
                                 </div>
                             </div>
@@ -50,11 +50,11 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-bold text-foreground mb-1">Kontak</h3>
-                                    <p className="text-muted-foreground mb-2">WhatsApp: +62 812 3456 789</p>
+                                    <p className="text-muted-foreground mb-2">WhatsApp: +62 838 3818 5659</p>
                                     <Button
                                         size="sm"
                                         className="gap-2"
-                                        onClick={() => window.open("https://wa.me/628123456789", "_blank")}
+                                        onClick={() => window.open("https://wa.me/6283838185659", "_blank")}
                                     >
                                         Chat Sekarang
                                     </Button>
@@ -76,7 +76,7 @@ export default function Contact() {
 
                             {/* Embed Overlay (Simulated) */}
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126938.64164843477!2d106.75628169218751!3d-6.1558223681467575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6046487e35b%3A0xe72615467554904!2sJakarta%20Selatan%2C%20South%20Jakarta%20City%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1709450000000!5m2!1sen!2sid"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.49051566193012!2d110.90808237912809!3d-7.027116885055486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70b7fcada27447%3A0x7c2bcf16fac9b41c!2sSS%20motor!5e0!3m2!1sen!2sid!4v1769823676178!5m2!1sen!2sid"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}

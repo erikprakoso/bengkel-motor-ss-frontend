@@ -62,7 +62,7 @@ export default function Navbar() {
                     <Button
                         variant="default"
                         className="gap-2 shadow-lg shadow-primary/20"
-                        onClick={() => window.open("https://wa.me/628123456789", "_blank")}
+                        onClick={() => window.open("https://wa.me/6283838185659", "_blank")}
                     >
                         <Phone className="w-4 h-4" />
                         Booking Service
@@ -101,7 +101,7 @@ export default function Navbar() {
                             <Button
                                 variant="default"
                                 className="w-full mt-4 gap-2"
-                                onClick={() => window.open("https://wa.me/628123456789", "_blank")}
+                                onClick={() => window.open("https://wa.me/6283838185659", "_blank")}
                             >
                                 <Phone className="w-4 h-4" />
                                 Booking via WhatsApp

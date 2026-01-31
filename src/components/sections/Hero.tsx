@@ -130,7 +130,7 @@ export default function Hero() {
                                 <Button
                                     size="lg"
                                     className="w-full sm:w-auto text-base h-12 gap-2 shadow-xl shadow-primary/25 hover:shadow-primary/40 transition-all duration-300 relative overflow-hidden group"
-                                    onClick={() => window.open("https://wa.me/628123456789", "_blank")}
+                                    onClick={() => window.open("https://wa.me/6283838185659", "_blank")}
                                 >
                                     <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
                                     <Phone className="w-5 h-5 relative z-10" />
@@ -140,7 +140,7 @@ export default function Hero() {
                                     variant="outline"
                                     size="lg"
                                     className="w-full sm:w-auto text-base h-12 gap-2 border-primary/20 hover:bg-primary/5 hover:text-primary transition-colors"
-                                    onClick={() => window.open("https://wa.me/628123456789", "_blank")}
+                                    onClick={() => window.open("https://wa.me/6283838185659", "_blank")}
                                 >
                                     Konsultasi Gratis
                                     <ArrowRight className="w-4 h-4" />

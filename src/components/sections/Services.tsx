@@ -71,7 +71,7 @@ export default function Services() {
                                         <Button
                                             variant="link"
                                             className="text-foreground group-hover:text-primary p-0 h-auto font-semibold"
-                                            onClick={() => window.open("https://wa.me/628123456789", "_blank")}
+                                            onClick={() => window.open("https://wa.me/6283838185659", "_blank")}
                                         >
                                             Tanya Detail &rarr;
                                         </Button>
