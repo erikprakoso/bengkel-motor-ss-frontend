@@ -32,8 +32,25 @@ const {
         />
     </head>
     <body
-        class="min-h-screen bg-background font-sans antialiased text-foreground overflow-x-hidden selection:bg-primary selection:text-primary-foreground"
+        class="min-h-screen bg-background font-sans antialiased text-foreground overflow-x-hidden selection:bg-primary selection:text-primary-foreground relative"
     >
+        {/* Global Ambient Background */}
+        <div class="fixed inset-0 -z-50 pointer-events-none">
+            <div class="absolute inset-0 bg-background"></div>
+            <div
+                class="absolute top-[10%] left-[20%] w-[500px] h-[500px] bg-primary/10 blur-[120px] rounded-full animate-pulse"
+            >
+            </div>
+            <div
+                class="absolute bottom-[20%] right-[10%] w-[600px] h-[600px] bg-secondary/10 blur-[120px] rounded-full animate-pulse delay-1000"
+            >
+            </div>
+            <div
+                class="absolute top-[40%] left-[60%] w-[400px] h-[400px] bg-blue-500/5 blur-[100px] rounded-full"
+            >
+            </div>
+        </div>
+
         <Navbar client:load />
         <slot />
         <Footer />

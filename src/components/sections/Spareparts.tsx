@@ -4,7 +4,7 @@ import FadeIn from "@/components/ui/FadeIn";
 
 export default function Spareparts() {
     return (
-        <section id="spareparts" className="py-20 md:py-32 bg-muted/30">
+        <section id="spareparts" className="py-20 md:py-32">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-12">
                     <div className="flex-1 space-y-8">

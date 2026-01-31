@@ -28,7 +28,7 @@ const features = [
 
 export default function USP() {
     return (
-        <section className="py-20 md:py-32 bg-muted/20 relative overflow-hidden">
+        <section className="py-20 md:py-32 relative overflow-hidden">
             {/* Decorative gradient */}
             <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent" />
 

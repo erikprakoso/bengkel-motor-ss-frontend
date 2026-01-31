@@ -38,7 +38,7 @@ const steps = [
 
 export default function Process() {
     return (
-        <section id="process" className="py-24 md:py-32 bg-background relative overflow-hidden">
+        <section id="process" className="py-24 md:py-32 relative overflow-hidden">
             {/* Background Elements */}
             <div className="absolute top-1/2 left-0 w-full h-[500px] bg-primary/5 blur-[100px] -translate-y-1/2 rounded-full pointer-events-none" />
 
