@@ -32,7 +32,7 @@ const services = [
 
 export default function Services() {
     return (
-        <section id="services" className="py-20 md:py-32 relative">
+        <section id="services" className="py-20 md:py-32 relative overflow-hidden">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center mb-16 space-y-4">
                     <FadeIn>

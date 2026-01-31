@@ -74,7 +74,7 @@
     --primary-foreground: hsl(0 0% 100%);
 
     /* Teal/Cyan (Freshness) - Darkened slightly for contrast on white */
-    --secondary: hsl(180 100% 30%); 
+    --secondary: hsl(180 100% 30%);
     --secondary-foreground: hsl(0 0% 100%);
 
     --muted: hsl(210 40% 96.1%);
@@ -99,9 +99,16 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
   body {
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+    width: 100%;
   }
 
   h1,
